@@ -1,0 +1,248 @@
+/* MODIFICATIONS */
+
+.logo-dark,
+.logo-light {
+	max-height: 40px;
+}
+
+.navbar {
+	min-height: 80px;
+}
+	
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Montserrat", "Roboto", sans-serif;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height:1em;
+}
+
+.display-4 {
+	line-height: 1;
+	transform:scale(.95,1.0);
+}
+
+.corr {
+	margin-left: -16px;
+}
+
+.lead,
+.lead-hero {
+	font-size: 1.25rem;
+	line-height: 1.4;
+	font-weight: 400;
+	color: #888888;
+}
+
+.lead-hero {
+	color: #AEB3D4 !important;
+}
+
+.nav-tabs .nav-link {
+    font-family: "Montserrat";
+    letter-spacing: 0;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #000000;
+    background-color: transparent;
+    border-color: transparent transparent #3692F0;
+}
+
+.btn-hero,
+.btn-hero-inverse,
+.btn-hero-i,
+.btn-hero-inverse-i {
+	font-size: 17px;
+	padding: 20px;
+}
+
+.btn-tab {
+	font-size: 14px;
+	padding: 5px 15px;
+	font-weight: 600;
+}
+
+.btn-hero,
+.btn-tab {
+	font-family: "Roboto";
+	transition-delay: 100ms;
+    background: #2cd5bf;
+    border-radius: 4px !important;
+    border: 0 !important;
+    box-shadow: 0 0 0;
+	color: #fff;
+	letter-spacing:0;
+}
+
+.btn-hero:hover,
+.btn-tab:hover {
+	background: #3692F0;	
+	color: #fff;
+}
+
+.btn-hero-inverse {
+	font-family: "Roboto";
+    background: #3692F0;
+    border-radius: 4px !important;
+    border: 0 !important;
+    box-shadow: 0 0 0;
+	color: #fff;
+	letter-spacing:0;
+}
+
+.btn-hero-inverse:hover {
+	background: #2cd5bf;	
+	color: #fff;
+}
+
+.btn-hero-i,
+.btn-hero-inverse-i {
+	font-family: "Roboto";
+    background: transparent;
+    border-radius: 4px !important;
+    box-shadow: 0 0 0;
+	letter-spacing:0;
+}
+
+.btn-hero-i {
+	color: #2cd5bf;
+	border: 2px solid #2cd5bf;
+}
+
+.btn-hero-inverse-i {
+	color: #3692F0;
+	border: 2px solid #3692F0;
+}
+
+.btn-hero-i:hover,
+.btn-hero-inverse-i:hover {
+	color: #323d47;
+	border: 2px solid #323d47;
+}
+
+.btn-hero,
+.btn-hero-i,
+.btn-hero-inverse,
+.btn-hero-inverse-i {
+	margin-bottom: 10px;
+}
+
+a:hover, a:focus {
+    color: #3692F0;
+    text-decoration: none;
+    outline: none;
+}
+.get-right {
+	margin-left: auto;
+}
+
+.exp-h {
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 1.1em;
+	color: #000;
+}
+
+.ser-h {
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: #000;
+}
+
+.media-body {
+	font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.3em;
+    margin-top: 12px;
+}
+
+.bg-gray {
+	background-color: #F8F8F9;
+}
+
+.bg-gray-grad {
+	background-image: linear-gradient(0deg, #ffffff 0%, #F8F8F9 100%)
+}
+
+.quote-txt {
+	font-size: 30px;
+	line-height: 1.4em;
+	font-weight: 400;
+	color: #000;
+	text-align: left;
+}
+
+.quote-txt-small {
+	font-size: 24px;	
+	line-height: 1.4em;
+	font-weight: 400;
+	color: #000;
+	text-align: left;
+}
+
+.quote-person,
+.quote-sign {
+	font-size: 17px;
+	font-family: "Roboto";
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2em;
+	font-weight: 400;
+}
+
+.quote-person {	
+	color: #000;	
+}
+
+.quote-sign {
+	color: #A8AABB;	
+}
+
+.quote-box {
+	padding: 50px;
+	border: 2px solid #dbdbde;
+	border-radius: 10px;
+}
+
+.quote-icon {
+	color: #A8AABB;
+}
+
+.quote-high {
+	background: #2cd5bf;
+	color: #fff;
+}
+
+.img-shrinker {
+	max-width: 300px;
+}
+
+.partner img {
+    max-width: 150px;
+}
+
+.modal-header > h4,
+.modal-header > button > span {
+	color: #323d47 !important;
+}
+
+.modal-header > button > span {
+	font-size: 1.5em;
+}
+
+.modal-body > p,
+.modal-body > div > p,
+.custom-control-label {
+	color: #999999 !important;
+}
+
+footer > div > div > div > div > .nav-link {
+    line-height: 1.4em;
+    margin-bottom: 4px;
+    font-size: 0.8rem;
+}
